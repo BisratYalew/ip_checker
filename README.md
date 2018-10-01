@@ -14,7 +14,11 @@
  >>> False
  ```
 
-** Thanks!
+* Running Test
+``` shell
+python -m unittest test
+```
+##### Thanks!
 
  
  
