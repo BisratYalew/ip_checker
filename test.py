@@ -7,3 +7,4 @@ class IpCheckerTest(unittest.TestCase):
     def test(self):
         self.assertEqual(ip_obj.is_valid(), True)
         self.assertEqual(ip_obj.is_private(), False)
+        self.assertEqual(ip_obj.is_private(), True)
