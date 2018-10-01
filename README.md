@@ -3,6 +3,7 @@
 ip_checker is a python library which you can use to validate ip address and check whether an ip is private or public
 
 * Usage:
+``` python
  >>> from ip_checker import ip_checker
  >>> ip_obj = ip_checker('123.111.23.1')
  >>> ip_obj.is_valid()
@@ -11,6 +12,7 @@ ip_checker is a python library which you can use to validate ip address and chec
  >>> True
  >>> ip_obj.is_private()
  >>> False
+ ```
 
 ** Thanks!
 
