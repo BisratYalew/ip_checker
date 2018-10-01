@@ -13,6 +13,7 @@ class ip_checker(object):
             return False
         else:
             return True 
+            
 
     
     ## This method checks whether the given ipaddress is private or public & returns True or False
@@ -26,7 +27,6 @@ class ip_checker(object):
         elif findall( '(?i)^172.(1[6-9]|2[0-9]|3[0-1]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5])$', self.ip_address):
             return True
         else: return False
-
 
     ## Check if the ip address is public or not
     def is_public(self):
