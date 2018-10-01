@@ -1,6 +1,9 @@
 # PYTHON IP CHECKER      
 
 **ip_checker** *is a python library which you can use to validate ip address and check whether an ip is private or public*
+*& you can easily implement this library easily on your api, app or ...*
+
+##### This library works on both python2 & python 3
 
 * Usage:
 ``` python
@@ -19,9 +22,3 @@
 python -m unittest test
 ```
 ##### Thanks!
-
- 
- 
- 
- 
- 
