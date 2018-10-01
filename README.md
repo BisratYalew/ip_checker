@@ -1,6 +1,6 @@
 # PYTHON IP CHECKER      
 
-ip_checker is a python library which you can use to validate ip address and check whether an ip is private or public
+**ip_checker** *is a python library which you can use to validate ip address and check whether an ip is private or public*
 
 * Usage:
 ``` python
