@@ -26,3 +26,11 @@ class ip_checker(object):
         else if findall( '(?i)^172.(1[6-9]|2[0-9]|3[0-1]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5])$', self.IP):
             return True
         else return False
+
+
+    ## Check if the ip address is public or not
+    def is_public(self):
+        if self.is_valid() and not self.is_private():
+            return True
+        else:
+            return False
